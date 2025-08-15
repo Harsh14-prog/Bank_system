@@ -1,59 +1,63 @@
 Bank Management System in Java
 
-A basic banking system implemented in Java, providing account login, account creation, balance inquiry, fund transfers, and more.
+A basic banking system built in Java that allows account login, creation, balance inquiry, fund transfers, transaction history, and account closure.
 
 Features
 
-Login: Existing customers can log in to their accounts.
+Login – Existing customers can log in securely.
 
-Create Account: New customers can create a bank account.
+Create Account – New customers can register a bank account.
 
-Balance Inquiry: Customers can check their account balance.
+Balance Inquiry – Check current account balance.
 
-Account Details: View personal account information.
+Account Details – View personal account information.
 
-Fund Transfer: Transfer money to other accounts.
+Fund Transfer – Transfer money to other accounts.
 
-Transaction History: Check past transactions.
+Transaction History – Review past transactions.
 
-Account Closure: Close a bank account securely.
+Account Closure – Close accounts securely.
 
 Usage
 
-Login: Enter 1 to log in to an existing account.
+Login
 
-Enter your account number and PIN (stored in credentials.txt).
+Enter 1 to log in.
+
+Provide account number and PIN (stored in credentials.txt).
 
 Access the menu to use banking features.
 
-Create Account: Enter 2 to create a new account.
+Create Account
 
-Follow the instructions and provide the required details.
+Enter 2 to create a new account.
+
+Follow prompts and provide required details.
 
 Project Structure
 
-The program is organized into the following main classes:
+Classes:
 
-Main: Entry point of the application, provides options to log in or create a new account.
+Main – Entry point; displays login/create account options.
 
-Login: Handles user login and credential verification.
+Login – Handles user login and credential validation.
 
-Creation: Facilitates new account creation.
+Creation – Manages new account creation.
 
-BalanceInquiry: Checks the balance of a user's account.
+BalanceInquiry – Checks account balance.
 
-AccountDetails: Displays account information.
+AccountDetails – Displays account information.
 
-Transaction: Handles fund transfers between accounts.
+Transaction – Handles fund transfers.
 
-Deletion: Allows account closure and deletes user data.
+Deletion – Deletes accounts securely.
 
-Data Files
+Data Files:
 
-credentials.txt: Stores usernames and passwords of registered users.
+credentials.txt – Stores usernames and passwords.
 
-userDB.txt: Stores account details such as account number, name, and contact information.
+userDB.txt – Stores account details (number, name, contact).
 
-balanceDB.txt: Maintains account balances for all users.
+balanceDB.txt – Stores account balances.
 
-acc_[accNo].txt: Stores transaction history for each account.
+acc_[accNo].txt – Stores individual account transactions.
