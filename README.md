@@ -52,4 +52,3 @@ A basic banking system built in Java that allows account login, account creation
 
 
 
-[sawongam](https://github.com/sawongam)
